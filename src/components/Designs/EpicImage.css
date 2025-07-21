@@ -1,5 +1,5 @@
 .epic-container {
-  background: url('./images/space2.jpg') no-repeat center center fixed;
+  background: url('/images/space2.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   color: #ffffff;
