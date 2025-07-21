@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Designs/Landingpage.css' // Make sure this path is correct
+import '../Designs/LandingPage.css' // Make sure this path is correct
 
 const Landingpage = () => {
   return (
