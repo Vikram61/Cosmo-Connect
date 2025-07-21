@@ -1,0 +1,49 @@
+.epic-container {
+  background: url('./images/space2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+input.date-picker {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.epic-image {
+  margin-top: 2rem;
+}
+
+.epic-image img {
+  max-width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.error {
+  color: #ff5252;
+  margin-top: 1rem;
+}

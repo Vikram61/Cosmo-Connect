@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.apod-wrapper {
+  font-family: 'Orbitron', sans-serif;
+  min-height: 100vh;
+  background-image: url('./images/milkyway.jpg'); /* update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.apod-wrapper h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 15px #00ffff;
+}
+
+.apod-wrapper button {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.apod-wrapper button:hover {
+  background-color: #00ffff;
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.image-container {
+  margin-top: 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.image-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.image-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #dddddd;
+  text-align: justify;
+}

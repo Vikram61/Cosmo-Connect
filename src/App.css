@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.landing-wrapper {
+  font-family: 'Orbitron', sans-serif;
+  min-height: 100vh;
+  background-image: url('./images/milkyway.jpg'); /* use your actual path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-section h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.quote-section p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #cccccc;
+}
+
+.componentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  color: #00ffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 250px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff;
+}

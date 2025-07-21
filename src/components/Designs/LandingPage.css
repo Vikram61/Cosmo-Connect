@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+.landing-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.4);
+}
+
+.overlay-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50px); /* Moves content 50px up */
+}
+.quote-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.quote-section h1 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.quote-section p {
+  font-size: 1.3rem;
+  color: #ffffffbb;
+}
+
+.componentSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-link {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-link:hover {
+  background-color: #00ffff33;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffff88;
+}
